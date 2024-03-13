@@ -1,8 +1,11 @@
+from typing import Dict
 import json
 
 Lista: list = ["sapato", 39, 10.38, True]
 
-produto_01: dict = {
+produto_01: Dict[str, any]
+
+produto_01: Dict[str, any] = {
     "nome": "sapato",
     "quantidade": 36,
     "preco": 10.38,
