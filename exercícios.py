@@ -20,7 +20,7 @@ lista_de_livros = []
 lista_de_livros.append(livro_01)
 lista_de_livros.append(livro_02)
 
-# print(lista_de_livros)
+print(lista_de_livros)
 
 lista_de_livros_usando_dict: dict = {
     "livro_01": {"Titulo": "Game of Thrones",
@@ -31,3 +31,5 @@ lista_de_livros_usando_dict: dict = {
                  "Autor": "Estagiario",
                  "Ano": 2007}
 }
+
+print(lista_de_livros_usando_dict)
